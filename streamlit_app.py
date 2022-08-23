@@ -37,4 +37,5 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # display the data in grid page
 streamlit.dataframe(fruityvice_normalized)
 
+import snowflake.connector
 
